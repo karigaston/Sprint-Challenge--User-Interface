@@ -33,14 +33,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-Semantic HTML
+Semantic HTML === Meaningful code. The two main reasons you want to implement Semantic HTML is for SEO and Accessibility for disabled people.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+"display: block” the selected element will take up the entire width of it’s container. Any content after the selected element will appear on the next line.
+
+“display: inline” the selected element will allow other elements to appear on the same line. An example of this could be a nabber. Typically a nabber contains many anchor tags which reference other pages for the website and all of those anchor tags will be displayed as an inline element (unless using a different css model such as flex box).
 
 3. What are the 4 areas of the box model?
+Margin: the space around the selected element. (This will push the selected element further away from outside elements).
+
+Padding: the space inside the selected element. (This will push the content further inward).
+
+Border: the border is what is between padding and margin. 
+
+Content: this is what is displayed inside the element such as text or an image.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+‘align-items: center’ will always deal with the cross axis.
 
 5. Explain why git is valuable to a team of developers.
+Git simplifies the process of working with other people and makes it easy to collaborate on projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
